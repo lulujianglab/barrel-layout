@@ -23,7 +23,7 @@
 [JS快速获取图片宽高的方法](http://www.css88.com/archives/5224/comment-page-1)
 
 querySelector()和querySelectorAll()两个DOM选择器，像CSS选择器一样选择需要的节点。
-[参考链接](http://www.nowamagic.net/librarys/veda/detail/388)
+ [参考链接](http://www.nowamagic.net/librarys/veda/detail/388)
   
 ## 主要思路：
 
