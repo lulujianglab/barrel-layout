@@ -20,10 +20,10 @@
   
   5. obj.naturalWidth(naturalHeight)方法，这是HTML5里新添加的一个获取元素高宽的方法，但只适用于Firefox/IE9/Safari/Chrome/Opera浏览器。
   
- [JS快速获取图片宽高的方法](http://www.css88.com/archives/5224/comment-page-1)
+[JS快速获取图片宽高的方法](http://www.css88.com/archives/5224/comment-page-1)
 
 querySelector()和querySelectorAll()两个DOM选择器，像CSS选择器一样选择需要的节点。
- [参考链接](http://www.nowamagic.net/librarys/veda/detail/388)
+[参考链接](http://www.nowamagic.net/librarys/veda/detail/388)
   
 ## 主要思路：
 
