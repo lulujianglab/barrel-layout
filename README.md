@@ -6,17 +6,17 @@
 
 ### JS获取IMG图片宽高： 
 
-    [参考链接](http://www.cnblogs.com/koukouyifan/p/4066564.html)
+  [参考链接](http://www.cnblogs.com/koukouyifan/p/4066564.html)
 
-  1. obj.style.width(height) 这个方法，只有在标签里用style属性写进了width的大小，才可以获取到值，否则只返回的为空。
+    1. obj.style.width(height) 这个方法，只有在标签里用style属性写进了width的大小，才可以获取到值，否则只返回的为空。
 
-  2. obj.offsetWidth(offsetHeight) width值+padding值+border值
+    2. obj.offsetWidth(offsetHeight) width值+padding值+border值
 
-  3. obj.clientWidth(clientHeight) width值+padding值
+    3. obj.clientWidth(clientHeight) width值+padding值
   
-  注：上述两种方法要想获取到img标签的宽，是在img标签里添加的style=”width: px” 。如果去掉这一属性值，那么返回的值就是图片本身的高宽值。
+    注：上述两种方法要想获取到img标签的宽，是在img标签里添加的style=”width: px” 。如果去掉这一属性值，那么返回的值就是图片本身的高宽值。
   
-  4. getComputedStyle 与 currentStyle是处理兼容性的两个方法，获取到的值都是图片在屏幕上显示的仅仅图片的高宽值，不会获取到img标签的padding及border值；但其中getComputedStyle适用于Firefox/IE9/Safari/Chrome/Opera浏览器，currentStyle适用于IE6/7/8。但是如果img标签即使没有设置style属性也没有引入样式表，那么只有getComputedStyle能获取到值，即为图片本身高宽值，currentStyle则返回auto。
+    4. getComputedStyle 与 currentStyle是处理兼容性的两个方法，获取到的值都是图片在屏幕上显示的仅仅图片的高宽值，不会获取到img标签的padding及border值；但其中getComputedStyle适用于Firefox/IE9/Safari/Chrome/Opera浏览器，currentStyle适用于IE6/7/8。但是如果img标签即使没有设置style属性也没有引入样式表，那么只有getComputedStyle能获取到值，即为图片本身高宽值，currentStyle则返回auto。
   
   5. obj.naturalWidth(naturalHeight)方法，这是HTML5里新添加的一个获取元素高宽的方法，但只适用于Firefox/IE9/Safari/Chrome/Opera浏览器。
   
