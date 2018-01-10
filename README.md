@@ -18,7 +18,7 @@
   
     4. getComputedStyle 与 currentStyle是处理兼容性的两个方法，获取到的值都是图片在屏幕上显示的仅仅图片的高宽值，不会获取到img标签的padding及border值；但其中getComputedStyle适用于Firefox/IE9/Safari/Chrome/Opera浏览器，currentStyle适用于IE6/7/8。但是如果img标签即使没有设置style属性也没有引入样式表，那么只有getComputedStyle能获取到值，即为图片本身高宽值，currentStyle则返回auto。
   
-  5. obj.naturalWidth(naturalHeight)方法，这是HTML5里新添加的一个获取元素高宽的方法，但只适用于Firefox/IE9/Safari/Chrome/Opera浏览器。
+    5. obj.naturalWidth(naturalHeight)方法，这是HTML5里新添加的一个获取元素高宽的方法，但只适用于Firefox/IE9/Safari/Chrome/Opera浏览器。
   
 [JS快速获取图片宽高的方法](http://www.css88.com/archives/5224/comment-page-1)
 
